@@ -20,7 +20,15 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "types": [
+      "vitest/globals",
+      "@types/node",
+      "@types/react/next",
+      "@types/jest",
+      "@types/tailwindcss/tailwind-config",
+      "@testing-library/jest-dom"
+    ]
   },
   "include": [
     "next-env.d.ts",
