@@ -4,8 +4,8 @@ import { User } from "@/src/types";
 export const useUser = () => {
   const [user, setUser] = useState<User | undefined>({
     id: "fake-user-id",
-    name: "Jojo",
-    email: "jojo@email.com",
+    name: "User One",
+    email: "user_1@email.com",
   });
 
   return { user, setUser };
