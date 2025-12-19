@@ -7,6 +7,7 @@ export const workItemStatusList = [
   "in_progress",
   "on_hold",
 ] as const;
+
 export const priorityList = ["low", "medium", "high"] as const;
 
 export const WorkItemFields = [

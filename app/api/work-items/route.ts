@@ -14,8 +14,7 @@ export const inputSchema = z.object({
   status: z.literal(workItemStatusList).nullish(),
   type: z.literal(workItemTypeList).nullish(),
   priority: z.literal(priorityList).nullish(),
-  sortBy: z.literal([""]).nullish(),
-  f: z.literal(WorkItemFields).nullish(),
+  sortBy: z.literal(WorkItemFields).nullish(),
 });
 
 export async function GET(req: NextRequest) {
