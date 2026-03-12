@@ -17,8 +17,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
 ## Assignments
 
   This is a pair programming exercise. You will be the driver, and your interviewer
@@ -26,8 +24,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
   This is a <strong>NextJS app (v16.x)</strong> that styled with
   <strong>Tailwindcss</strong> and uses <strong>shadcn/ui</strong>
-  components. There are a set of mocked API endpoints, that each have a
-  helper function configured for yo, that each have a helper function
+  components. There are a set of mocked API endpoints, that each have a helper function
   configured for you.
 
   - work-items: <a target="_blank" href="/api/work-items?page=1"> /api/work-items?page=1 </a>
