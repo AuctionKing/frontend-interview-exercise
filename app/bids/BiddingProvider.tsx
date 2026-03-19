@@ -3,8 +3,6 @@ import { PropsWithChildren, useEffect, useState } from "react";
 import { BidItem } from "@/src/types";
 import { getBidItems, putIncreaseBid } from "@/src/api/bid-items";
 
-const POLLING_INTERVAL = 5_000;
-
 export const BiddingProvider = ({ children }: PropsWithChildren) => {
   const [bids, setBids] = useState<BidItem[]>([]);
   const [loading, setLoading] = useState(false);
